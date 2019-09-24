@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = () => {
   return (
-    <div fontfamily = "MinecrafterReg.ttf">
+    <div>
   
       <article>
         <section>
