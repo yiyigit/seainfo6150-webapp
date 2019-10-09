@@ -1,0 +1,9 @@
+.title{
+	
+	color:grey;
+
+}
+
+.time{
+	background:red;
+}
