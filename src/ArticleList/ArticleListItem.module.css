@@ -1,0 +1,18 @@
+.box{
+	border:2px solid firebrick;
+	padding: 5px;
+	background: #dcdcdc;
+}
+
+.title{
+	font-size: 120%;
+	color:firebrick;
+
+
+}
+
+.time{
+	font-weight: bold;
+	font-size: 80%;
+
+}

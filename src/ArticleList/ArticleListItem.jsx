@@ -5,8 +5,8 @@ import styles from './ArticleListItem.module.css';
 
 const ArticleListItem = props =>{
 	return (
-        <article>
-            <header>
+        <article >
+            <header className ={styles.box}>
             <h1 className = {styles.title}>{props.article.title}</h1>
             <p> {props.article.shortText} </p>
             <time className= {styles.time} dateTime={props.article.pubYear}> {props.article.pubDate} </time>

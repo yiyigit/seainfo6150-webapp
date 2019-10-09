@@ -6,11 +6,11 @@ import styles from './ArticleList.module.css'
    
  const ArticleList = props => {
   return (
-    <ul className = {styles.container}>
+    <div className = {styles.container}>
       {props.articles.map(article => (
-        <li ><ArticleListItem article={article} /></li>
+        <p className = {styles.l}><ArticleListItem article={article}  /></p>
       ))}
-    </ul>
+    </div>
   );
 }; 	
 
