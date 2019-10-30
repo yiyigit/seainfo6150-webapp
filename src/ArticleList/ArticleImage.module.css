@@ -2,7 +2,9 @@
 	height:50px;
 	width :100px;
 	border-radius: 50%;
-	border:5px solid firebrick;
+	border: 5px solid firebrick;
+	float:left;
+	margin-top: 1rem;
 	vertical-align: middle;
 	display:inline-block;
 
