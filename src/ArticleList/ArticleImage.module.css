@@ -3,11 +3,8 @@
 	width :100px;
 	border-radius: 50%;
 	border: 5px solid firebrick;
-	float:left;
-	margin-top: 1rem;
-	vertical-align: middle;
-	display:inline-block;
-
-/*	position: absolute;top: 10;left:10;
+	margin-top: 5px;
+	margin-left:5px;
+/*	display:inline-block;
 */
 }

@@ -8,7 +8,7 @@ import styles from './ArticleList.module.css'
   return (
     <div className = {styles.container}>
       {props.articles.map(article => (
-        <p className = {styles.l}><ArticleListItem article={article}  /></p>
+        <ArticleListItem article={article}  />
       ))}
     </div>
   );
