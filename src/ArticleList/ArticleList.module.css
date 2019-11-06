@@ -9,3 +9,27 @@
 }
 
 
+@media (min-width: 370px) {
+  .container {
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+@media (min-width: 560px) {
+  .container {
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+@media (min-width: 840px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    font-size: 1.1rem;
+  }
+}
+
+
